@@ -5,6 +5,7 @@ app = Flask(__name__)
 
 
 # Home
+ 
 @app.route('/')
 def home():
     blog_url = "https://api.npoint.io/76aa84646074fa3edf51"
